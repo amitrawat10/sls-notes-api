@@ -5,7 +5,6 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "sls offline start",
     "dev": "sls dev",
     "remove:stack": "sls remove",
     "deploy:dev": "sls deploy --stage dev",
@@ -14,12 +13,9 @@
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.621.0",
     "@aws-sdk/util-dynamodb": "^3.621.0",
-    "aws-jwt-verify": "^4.0.1",
-    "serverless-dynamodb": "^0.2.54",
-    "serverless-offline": "^13.6.0"
+    "aws-jwt-verify": "^4.0.1"
   },
   "devDependencies": {
-    "serverless-iam-roles-per-function": "^3.2.0",
-    "serverless-pseudo-parameters": "^2.6.1"
+    "serverless-iam-roles-per-function": "^3.2.0"
   }
 }

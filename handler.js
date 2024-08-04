@@ -132,5 +132,3 @@ function send(statusCode, data) {
     body: JSON.stringify(data),
   };
 }
-
-// https://mynotesdomain.auth.ap-south-1.amazoncognito.com/login?response_type=token&client_id=55noep9ad9qntph39v3rmfu7hj&redirect_uri=http://localhost:3000

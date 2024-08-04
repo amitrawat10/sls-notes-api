@@ -2,7 +2,6 @@ org: fakelook
 service: notesAPI
 plugins:
   - serverless-iam-roles-per-function
-  - serverless-pseudo-parameters
 
 package:
   patterns:
